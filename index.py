@@ -20,10 +20,10 @@ playerY = 480
 playerX_change = 0
 playerY_change = 0
 
-# # enemy
-# enemyImg = pygame.transform.scale(
-#     pygame.image.load("assets/enemy.png").convert_alplha(), (64, 64)
-# )
+# enemy
+enemyImg = pygame.transform.scale(
+    pygame.image.load("assets/enemy.png").convert_alpha(), (64, 64)
+)
 
 
 def player(x, y):
